@@ -12,9 +12,15 @@ struct DynamicFiltering: View {
     @Environment(\.managedObjectContext) var moc
     
     @State var lastNameFilter = "A"
+    
+    let sortDescriptors = [
+        NSSortDescriptor(keyPath: \Country.fullName, ascending: true),
+        NSSortDescriptor(keyPath: \Country.shortName, ascending: true)
+    ]
+    
     var body: some View {
         VStack {
-            FilteredList(filterKey: "lastName", filterValue: lastNameFilter) { (singer: Singer) in
+            FilteredList(filterKey: "lastName", filterValue: lastNameFilter, predicate: .beginsWith, sortDescriptors: sortDescriptors) { (singer: Singer) in
                 Text("\(singer.wrappedlastName) \(singer.wrappedlastName)")
             }
             
