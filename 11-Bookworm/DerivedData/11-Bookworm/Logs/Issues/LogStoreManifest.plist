@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>07851429-31AF-4F12-A12B-7C3B7051EFAE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>07851429-31AF-4F12-A12B-7C3B7051EFAE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>11-Bookworm-dbwrolrigeehxadlxgsygpvikshq</string>
+			<key>timeStartedRecording</key>
+			<real>616558506.41812396</real>
+			<key>timeStoppedRecording</key>
+			<real>616558508.32734799</real>
+			<key>title</key>
+			<string>Build target 11-Bookworm</string>
+			<key>uniqueIdentifier</key>
+			<string>07851429-31AF-4F12-A12B-7C3B7051EFAE</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

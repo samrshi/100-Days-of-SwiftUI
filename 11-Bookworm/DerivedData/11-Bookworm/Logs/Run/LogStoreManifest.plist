@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1DCB35BF-E5EE-461D-8E5C-C8738D8FDF7A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1DCB35BF-E5EE-461D-8E5C-C8738D8FDF7A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>11-Bookworm project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>11-Bookworm</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run 11-Bookworm</string>
+			<key>timeStartedRecording</key>
+			<real>616519797.82121801</real>
+			<key>timeStoppedRecording</key>
+			<real>616519821.12128103</real>
+			<key>title</key>
+			<string>Run 11-Bookworm</string>
+			<key>uniqueIdentifier</key>
+			<string>1DCB35BF-E5EE-461D-8E5C-C8738D8FDF7A</string>
+		</dict>
+		<key>69C7ED98-E67A-44A7-8513-CC485CFE75FB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>69C7ED98-E67A-44A7-8513-CC485CFE75FB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>11-Bookworm project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>11-Bookworm</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run 11-Bookworm</string>
+			<key>timeStartedRecording</key>
+			<real>616558508.34114301</real>
+			<key>timeStoppedRecording</key>
+			<real>616558511.75618899</real>
+			<key>title</key>
+			<string>Run 11-Bookworm</string>
+			<key>uniqueIdentifier</key>
+			<string>69C7ED98-E67A-44A7-8513-CC485CFE75FB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

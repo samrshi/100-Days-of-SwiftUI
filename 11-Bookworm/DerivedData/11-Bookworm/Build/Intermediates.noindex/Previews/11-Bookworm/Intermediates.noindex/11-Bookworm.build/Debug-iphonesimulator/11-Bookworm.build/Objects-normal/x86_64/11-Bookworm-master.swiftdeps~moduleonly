@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "7b7689e60ce0ec13d66da86e8034cfb9"
+build_time: [1594826564, 730659000]
+inputs:
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/11-Bookworm/EmojiRatingView.swift": [1594620542, 710521284]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/11-Bookworm/DetailView.swift": [1594826559, 903943903]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/11-Bookworm/AddBookView.swift": [1594826454, 117198404]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/11-Bookworm/RatingView.swift": [1594620607, 585511887]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/11-Bookworm/AppDelegate.swift": [1594759291, 896998982]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/11-Bookworm/ContentView.swift": [1594826277, 413706279]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/11-Bookworm/SceneDelegate.swift": [1594620373, 344554103]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/DerivedData/11-Bookworm/Build/Intermediates.noindex/Previews/11-Bookworm/Intermediates.noindex/11-Bookworm.build/Debug-iphonesimulator/11-Bookworm.build/DerivedSources/CoreDataGenerated/Bookworm/Book+CoreDataClass.swift": [1594826564, 718383223]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/DerivedData/11-Bookworm/Build/Intermediates.noindex/Previews/11-Bookworm/Intermediates.noindex/11-Bookworm.build/Debug-iphonesimulator/11-Bookworm.build/DerivedSources/CoreDataGenerated/Bookworm/Book+CoreDataProperties.swift": [1594826564, 719781559]
+  "/Users/hawkeyeshi/-dev/-Swift/100 Days of Swift/11-Bookworm/DerivedData/11-Bookworm/Build/Intermediates.noindex/Previews/11-Bookworm/Intermediates.noindex/11-Bookworm.build/Debug-iphonesimulator/11-Bookworm.build/DerivedSources/CoreDataGenerated/Bookworm/Bookworm+CoreDataModel.swift": [1594826564, 716006872]
