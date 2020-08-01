@@ -8,20 +8,26 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @ObservedObject var users = Users()
+struct ContentView: View {    
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(entity: User.entity(), sortDescriptors: [NSSortDescriptor(key: "name", ascending: true)]) var users: FetchedResults<User>
     
     var body: some View {
         NavigationView {
-            List(users.all) { user in
-                NavigationLink(destination: UserDetailView(user: user).environmentObject(self.users)) {
+            List(users, id: \.id) { user in
+                NavigationLink(destination: UserDetailView(user: user)) {
                     VStack(alignment: .leading) {
-                        Text(user.name)
+                        Text(user.uwName)
                             .font(.headline)
-                        Text(user.email)
+                        Text(user.uwEmail)
                             .font(.callout)
                             .foregroundColor(.secondary)
                     }
+                }
+            }
+            .onAppear {
+                if self.users.isEmpty {
+                    Users.loadData(moc: self.moc)
                 }
             }
             .navigationBarTitle("Users")

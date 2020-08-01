@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  UsersList
+//  UsersList-CoreData
 //
-//  Created by hawkeyeshi on 7/30/20.
+//  Created by hawkeyeshi on 8/1/20.
 //  Copyright © 2020 samrshi. All rights reserved.
 //
 

@@ -10,53 +10,41 @@ import SwiftUI
 
 struct UserDetailView: View {
     let user: User
-    @EnvironmentObject var users: Users
     
     var body: some View {
         List {
-            HStack {
-                Circle()
-                    .fill(user.isActive ? Color.green : Color.red)
-                    .frame(width: 15, height: 15)
-                
-                Text(user.name)
-                    .font(.largeTitle)
-            }
-            .padding(.vertical)
-            
             Section(header: Text("Information")) {
                 VStack(alignment: .leading) {
                     Text("Age:")
                         .foregroundColor(.secondary)
-                    Text("\(user.age)")
+                    Text("\(user.uwAge)")
                 }
                 VStack(alignment: .leading) {
                     Text("Company:")
                         .foregroundColor(.secondary)
-                    Text("\(user.company)")
+                    Text("\(user.uwCompanyName)")
                 }
                 VStack(alignment: .leading) {
                     Text("Email:")
                         .foregroundColor(.secondary)
-                    Text("\(user.email)")
+                    Text("\(user.uwEmail)")
                 }
                 VStack(alignment: .leading) {
                     Text("Address:")
                         .foregroundColor(.secondary)
-                    Text("\(user.address)")
+                    Text("\(user.uwAddress)")
                 }
             }
             
             Section(header: Text("Friends")) {
-                ForEach(user.friendsAsUsers(users: users.all), id: \.id) { friend in
+                ForEach(user.friendsArray, id: \.id) { friend in
                     NavigationLink(destination:
                         UserDetailView(user: friend)
-                            .environmentObject(self.users)
                     ) {
                         VStack(alignment: .leading) {
-                            Text(friend.name)
+                            Text(friend.uwName)
                                 .font(.headline)
-                            Text(friend.email)
+                            Text(friend.uwEmail)
                                 .foregroundColor(.secondary)
                         }
                     }
@@ -64,7 +52,7 @@ struct UserDetailView: View {
             }
         }
         .font(.callout)
-        .navigationBarTitle(Text(user.name), displayMode: .inline)
+        .navigationBarTitle(Text(user.uwName))
     }
 }
 
