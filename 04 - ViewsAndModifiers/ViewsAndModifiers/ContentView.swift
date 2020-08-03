@@ -8,24 +8,35 @@
 
 import SwiftUI
 
-struct Title: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .foregroundColor(Color.blue)
-            .font(.title)
-    }
-}
-
-extension View {
-    func title() -> some View {
-        self.modifier(Title())
-    }
-}
-
 struct ContentView: View {
+    let views = [
+        (title: "What is behind the main SwiftUI view?", view: AnyView(WhatsBehindTheView())),
+        (title: "Why modifier order matters", view: AnyView(OrderMatters())),
+        (title: "Why does SwiftUI use 'some View' for its view type?", view: AnyView(WhyUseSomeView())),
+        (title: "Condiitional modifiers", view: AnyView(ConditionalModifiers())),
+        (title: "Environment modifiers", view: AnyView(EnvironmentModifiers())),
+        (title: "Views as properties", view: AnyView(ViewsAsProperties())),
+        (title: "View composition", view: AnyView(ViewComposition())),
+        (title: "Custom modifiers", view: AnyView(CustomModifiers())),
+        (title: "Custom containers", view: AnyView(CustomContainers())),
+        (title: "Challenge", view: AnyView(Challenge()))
+    ]
+    
     var body: some View {
-        Text("Hello World")
-            .title()
+        NavigationView {
+            List(views, id: \.view.id) { view in
+                NavigationLink(destination: view.view) {
+                    Text(view.title)
+                }
+            }
+            .navigationBarTitle("Views and Modifiers")
+        }
+    }
+}
+
+extension AnyView {
+    var id: UUID {
+        UUID()
     }
 }
 
