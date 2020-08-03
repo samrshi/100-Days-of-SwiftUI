@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0A5AB024D77F7B00FD5C3C /* CreatingImplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A5AAF24D77F7B00FD5C3C /* CreatingImplicitAnimations.swift */; };
+		BD0A5AB224D77FDB00FD5C3C /* CustomizingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A5AB124D77FDB00FD5C3C /* CustomizingAnimations.swift */; };
+		BD0A5AB424D7808700FD5C3C /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A5AB324D7808700FD5C3C /* AnimatingBindings.swift */; };
+		BD0A5AB624D7811800FD5C3C /* CreatingExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A5AB524D7811800FD5C3C /* CreatingExplicitAnimations.swift */; };
+		BD0A5AB824D7819000FD5C3C /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A5AB724D7819000FD5C3C /* AnimationStack.swift */; };
+		BD0A5ABA24D781CA00FD5C3C /* AnimatingGetures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A5AB924D781CA00FD5C3C /* AnimatingGetures.swift */; };
+		BD0A5ABC24D782D000FD5C3C /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A5ABB24D782D000FD5C3C /* Transitions.swift */; };
+		BD0A5ABE24D7832000FD5C3C /* CustomTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A5ABD24D7832000FD5C3C /* CustomTransitions.swift */; };
 		BD922B262493E76B00904D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD922B252493E76B00904D93 /* AppDelegate.swift */; };
 		BD922B282493E76B00904D93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD922B272493E76B00904D93 /* SceneDelegate.swift */; };
 		BD922B2A2493E76B00904D93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD922B292493E76B00904D93 /* ContentView.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0A5AAF24D77F7B00FD5C3C /* CreatingImplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingImplicitAnimations.swift; sourceTree = "<group>"; };
+		BD0A5AB124D77FDB00FD5C3C /* CustomizingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations.swift; sourceTree = "<group>"; };
+		BD0A5AB324D7808700FD5C3C /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
+		BD0A5AB524D7811800FD5C3C /* CreatingExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingExplicitAnimations.swift; sourceTree = "<group>"; };
+		BD0A5AB724D7819000FD5C3C /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
+		BD0A5AB924D781CA00FD5C3C /* AnimatingGetures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGetures.swift; sourceTree = "<group>"; };
+		BD0A5ABB24D782D000FD5C3C /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
+		BD0A5ABD24D7832000FD5C3C /* CustomTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitions.swift; sourceTree = "<group>"; };
 		BD922B222493E76B00904D93 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD922B252493E76B00904D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD922B272493E76B00904D93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +75,14 @@
 				BD922B252493E76B00904D93 /* AppDelegate.swift */,
 				BD922B272493E76B00904D93 /* SceneDelegate.swift */,
 				BD922B292493E76B00904D93 /* ContentView.swift */,
+				BD0A5AAF24D77F7B00FD5C3C /* CreatingImplicitAnimations.swift */,
+				BD0A5AB124D77FDB00FD5C3C /* CustomizingAnimations.swift */,
+				BD0A5AB324D7808700FD5C3C /* AnimatingBindings.swift */,
+				BD0A5AB524D7811800FD5C3C /* CreatingExplicitAnimations.swift */,
+				BD0A5AB724D7819000FD5C3C /* AnimationStack.swift */,
+				BD0A5AB924D781CA00FD5C3C /* AnimatingGetures.swift */,
+				BD0A5ABB24D782D000FD5C3C /* Transitions.swift */,
+				BD0A5ABD24D7832000FD5C3C /* CustomTransitions.swift */,
 				BD922B2B2493E76D00904D93 /* Assets.xcassets */,
 				BD922B302493E76D00904D93 /* LaunchScreen.storyboard */,
 				BD922B332493E76D00904D93 /* Info.plist */,
@@ -146,7 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0A5AB224D77FDB00FD5C3C /* CustomizingAnimations.swift in Sources */,
+				BD0A5AB024D77F7B00FD5C3C /* CreatingImplicitAnimations.swift in Sources */,
+				BD0A5AB624D7811800FD5C3C /* CreatingExplicitAnimations.swift in Sources */,
+				BD0A5ABE24D7832000FD5C3C /* CustomTransitions.swift in Sources */,
+				BD0A5AB424D7808700FD5C3C /* AnimatingBindings.swift in Sources */,
 				BD922B262493E76B00904D93 /* AppDelegate.swift in Sources */,
+				BD0A5AB824D7819000FD5C3C /* AnimationStack.swift in Sources */,
+				BD0A5ABC24D782D000FD5C3C /* Transitions.swift in Sources */,
+				BD0A5ABA24D781CA00FD5C3C /* AnimatingGetures.swift in Sources */,
 				BD922B282493E76B00904D93 /* SceneDelegate.swift in Sources */,
 				BD922B2A2493E76B00904D93 /* ContentView.swift in Sources */,
 			);
