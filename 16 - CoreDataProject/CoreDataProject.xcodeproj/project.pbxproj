@@ -28,6 +28,7 @@
 		BDC4284124C1597700A8ECF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC4284024C1597700A8ECF9 /* Assets.xcassets */; };
 		BDC4284424C1597700A8ECF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC4284324C1597700A8ECF9 /* Preview Assets.xcassets */; };
 		BDC4284724C1597700A8ECF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC4284524C1597700A8ECF9 /* LaunchScreen.storyboard */; };
+		BDEE79B524D78BC20028C24C /* CountriesAndCandy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE79B424D78BC20028C24C /* CountriesAndCandy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		BDC4284324C1597700A8ECF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDC4284624C1597700A8ECF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDC4284824C1597700A8ECF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEE79B424D78BC20028C24C /* CountriesAndCandy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesAndCandy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		BD05685624C15A3F00F75BC5 /* Introduction */ = {
 			isa = PBXGroup;
 			children = (
+				BDEE79B424D78BC20028C24C /* CountriesAndCandy.swift */,
 				BD0DDE2424C94C41000E065F /* Country+CoreDataClass.swift */,
 				BD0DDE2524C94C41000E065F /* Country+CoreDataProperties.swift */,
 				BD0DDE2624C94C41000E065F /* Candy+CoreDataClass.swift */,
@@ -207,6 +210,7 @@
 				BD0DDE2924C94C41000E065F /* Country+CoreDataProperties.swift in Sources */,
 				BD0DDE2124C94730000E065F /* FilteredList.swift in Sources */,
 				BDC4283A24C1597400A8ECF9 /* SceneDelegate.swift in Sources */,
+				BDEE79B524D78BC20028C24C /* CountriesAndCandy.swift in Sources */,
 				BD0DDE1B24C945BE000E065F /* FilteringWithNSPredicate.swift in Sources */,
 				BDC4283F24C1597400A8ECF9 /* ContentView.swift in Sources */,
 				BD0DDE2824C94C41000E065F /* Country+CoreDataClass.swift in Sources */,
