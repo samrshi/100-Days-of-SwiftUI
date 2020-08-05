@@ -2,21 +2,21 @@
 //  ImagePicker.swift
 //  Instafilter
 //
-//  Created by hawkeyeshi on 8/3/20.
+//  Created by hawkeyeshi on 8/4/20.
 //  Copyright © 2020 samrshi. All rights reserved.
 //
 
 import SwiftUI
 
 struct ImagePicker: UIViewControllerRepresentable {
-    class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-        var parent: ImagePicker
+    class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+        let parent: ImagePicker
         
         init(_ parent: ImagePicker) {
             self.parent = parent
         }
         
-        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
             if let uiImage = info[.originalImage] as? UIImage {
                 parent.image = uiImage
             }
@@ -25,8 +25,8 @@ struct ImagePicker: UIViewControllerRepresentable {
         }
     }
     
-    @Binding var image: UIImage?
     @Environment(\.presentationMode) var presentationMode
+    @Binding var image: UIImage?
     
     func makeCoordinator() -> Coordinator {
         Coordinator(self)

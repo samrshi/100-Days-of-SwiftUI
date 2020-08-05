@@ -34,7 +34,7 @@ struct WrappingUIViewController: View {
             }
         }
         .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
-            ImagePicker(image: self.$inputImage)
+            ImagePickerIntroduction(image: self.$inputImage)
         }
     }
     
