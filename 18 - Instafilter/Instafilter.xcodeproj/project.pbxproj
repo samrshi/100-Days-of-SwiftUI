@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BD0DBB0824DA4D9200E195AC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DBB0724DA4D9200E195AC /* ImagePicker.swift */; };
+		BD48197E24DBD502001E9250 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48197D24DBD502001E9250 /* ImageSaver.swift */; };
 		BD9F10C024D677F1000333CF /* ActionSheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F10BF24D677F1000333CF /* ActionSheetExample.swift */; };
 		BDA4092724D7C4E600BC6259 /* IntegratingCoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4092624D7C4E600BC6259 /* IntegratingCoreImage.swift */; };
-		BDA4092924D7C5E200BC6259 /* ImagePickerIntroductin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4092824D7C5E200BC6259 /* ImagePickerIntroductin.swift */; };
+		BDA4092924D7C5E200BC6259 /* ImagePickerIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4092824D7C5E200BC6259 /* ImagePickerIntroduction.swift */; };
 		BDA4092B24D7C71300BC6259 /* WrappingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4092A24D7C71300BC6259 /* WrappingUIViewController.swift */; };
 		BDC7D75C24D66DB50029D092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7D75B24D66DB50029D092 /* AppDelegate.swift */; };
 		BDC7D75E24D66DB50029D092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7D75D24D66DB50029D092 /* SceneDelegate.swift */; };
@@ -25,9 +26,10 @@
 
 /* Begin PBXFileReference section */
 		BD0DBB0724DA4D9200E195AC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BD48197D24DBD502001E9250 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		BD9F10BF24D677F1000333CF /* ActionSheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetExample.swift; sourceTree = "<group>"; };
 		BDA4092624D7C4E600BC6259 /* IntegratingCoreImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImage.swift; sourceTree = "<group>"; };
-		BDA4092824D7C5E200BC6259 /* ImagePickerIntroductin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerIntroductin.swift; sourceTree = "<group>"; };
+		BDA4092824D7C5E200BC6259 /* ImagePickerIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerIntroduction.swift; sourceTree = "<group>"; };
 		BDA4092A24D7C71300BC6259 /* WrappingUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingUIViewController.swift; sourceTree = "<group>"; };
 		BDC7D75824D66DB50029D092 /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC7D75B24D66DB50029D092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				BDC7D75D24D66DB50029D092 /* SceneDelegate.swift */,
 				BDC7D76224D66DB50029D092 /* ContentView.swift */,
 				BD0DBB0724DA4D9200E195AC /* ImagePicker.swift */,
+				BD48197D24DBD502001E9250 /* ImageSaver.swift */,
 				BDC7D77224D671AC0029D092 /* Introduction */,
 				BDC7D76424D66DB70029D092 /* Assets.xcassets */,
 				BDC7D76924D66DB70029D092 /* LaunchScreen.storyboard */,
@@ -102,7 +105,7 @@
 				BDC7D77524D673A60029D092 /* CustomBindings.swift */,
 				BDA4092624D7C4E600BC6259 /* IntegratingCoreImage.swift */,
 				BDA4092A24D7C71300BC6259 /* WrappingUIViewController.swift */,
-				BDA4092824D7C5E200BC6259 /* ImagePickerIntroductin.swift */,
+				BDA4092824D7C5E200BC6259 /* ImagePickerIntroduction.swift */,
 			);
 			path = Introduction;
 			sourceTree = "<group>";
@@ -182,9 +185,10 @@
 				BDC7D76124D66DB50029D092 /* Instafilter.xcdatamodeld in Sources */,
 				BDC7D77424D671C90029D092 /* PropertyWrappersAsStructs.swift in Sources */,
 				BDC7D75C24D66DB50029D092 /* AppDelegate.swift in Sources */,
-				BDA4092924D7C5E200BC6259 /* ImagePickerIntroductin.swift in Sources */,
+				BDA4092924D7C5E200BC6259 /* ImagePickerIntroduction.swift in Sources */,
 				BDC7D76324D66DB50029D092 /* ContentView.swift in Sources */,
 				BD9F10C024D677F1000333CF /* ActionSheetExample.swift in Sources */,
+				BD48197E24DBD502001E9250 /* ImageSaver.swift in Sources */,
 				BD0DBB0824DA4D9200E195AC /* ImagePicker.swift in Sources */,
 				BDA4092724D7C4E600BC6259 /* IntegratingCoreImage.swift in Sources */,
 				BDC7D77624D673A60029D092 /* CustomBindings.swift in Sources */,
