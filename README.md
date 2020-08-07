@@ -24,3 +24,4 @@ https://www.hackingwithswift.com/100/swiftui/
 |[Project 11](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/15%20-%20Bookworm) - Bookworm|![Imgur](https://i.imgur.com/vbqh1kHm.png)  ![Imgur](https://i.imgur.com/xMnTaHqm.png)  ![Imgur](https://i.imgur.com/SnUhNMWm.png)|
 |[Project 12](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/16%20-%20CoreDataProject) - Core Data Project|![Imgur](https://i.imgur.com/TRQb8ztm.png)|
 |[Milestone 10-12](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/17%20-%20Milestone%2010-12%20UsersList) - Users List|![Imgur](https://i.imgur.com/BR12Muxm.png)  ![Imgur](https://i.imgur.com/ckfMmX5m.png)|
+|[Project 13](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/18%20-%20Instafilter) - Instafilter|![Imgur](https://i.imgur.com/woJY3Smm.png)  ![Imgur](https://i.imgur.com/MoNMYjsm.png)|
