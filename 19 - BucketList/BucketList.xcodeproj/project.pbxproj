@@ -18,6 +18,9 @@
 		BD53049E24E77D160048694E /* WritingDataChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53049D24E77D160048694E /* WritingDataChallenge.swift */; };
 		BD5304A024E77F780048694E /* WritingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53049F24E77F780048694E /* WritingData.swift */; };
 		BD5304A224E785780048694E /* SwitchingStatesWithEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5304A124E785780048694E /* SwitchingStatesWithEnums.swift */; };
+		BD7743AB250DCDDB005E9F2B /* MapViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7743AA250DCDDB005E9F2B /* MapViewExample.swift */; };
+		BD7743AD250DD078005E9F2B /* LocalAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7743AC250DD078005E9F2B /* LocalAuthentication.swift */; };
+		BDA5B60F250DC960005E46AB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5B60E250DC960005E46AB /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		BD53049D24E77D160048694E /* WritingDataChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingDataChallenge.swift; sourceTree = "<group>"; };
 		BD53049F24E77F780048694E /* WritingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingData.swift; sourceTree = "<group>"; };
 		BD5304A124E785780048694E /* SwitchingStatesWithEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingStatesWithEnums.swift; sourceTree = "<group>"; };
+		BD7743AA250DCDDB005E9F2B /* MapViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExample.swift; sourceTree = "<group>"; };
+		BD7743AC250DD078005E9F2B /* LocalAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthentication.swift; sourceTree = "<group>"; };
+		BDA5B60E250DC960005E46AB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		BD53049A24E779780048694E /* Introduction */ = {
 			isa = PBXGroup;
 			children = (
+				BD7743AC250DD078005E9F2B /* LocalAuthentication.swift */,
+				BDA5B60E250DC960005E46AB /* MapView.swift */,
+				BD7743AA250DCDDB005E9F2B /* MapViewExample.swift */,
 				BD53049B24E779920048694E /* ComparableConformance.swift */,
 				BD53049D24E77D160048694E /* WritingDataChallenge.swift */,
 				BD53049F24E77F780048694E /* WritingData.swift */,
@@ -170,12 +179,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD53048424E777810048694E /* AppDelegate.swift in Sources */,
+				BD7743AD250DD078005E9F2B /* LocalAuthentication.swift in Sources */,
 				BD5304A224E785780048694E /* SwitchingStatesWithEnums.swift in Sources */,
 				BD53049C24E779920048694E /* ComparableConformance.swift in Sources */,
 				BD53048924E777810048694E /* BucketList.xcdatamodeld in Sources */,
 				BD53049E24E77D160048694E /* WritingDataChallenge.swift in Sources */,
 				BD5304A024E77F780048694E /* WritingData.swift in Sources */,
+				BD7743AB250DCDDB005E9F2B /* MapViewExample.swift in Sources */,
 				BD53048B24E777810048694E /* ContentView.swift in Sources */,
+				BDA5B60F250DC960005E46AB /* MapView.swift in Sources */,
 				BD53048624E777810048694E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
