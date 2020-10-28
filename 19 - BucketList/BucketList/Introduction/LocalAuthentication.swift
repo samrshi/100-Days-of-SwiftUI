@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import LocalAuthentication
 
 struct LocalAuthentication: View {
     @State private var isUnlocked = false

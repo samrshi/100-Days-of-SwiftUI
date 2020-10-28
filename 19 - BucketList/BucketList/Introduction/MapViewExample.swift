@@ -10,7 +10,7 @@ import SwiftUI
 
 struct MapViewExample: View {
     var body: some View {
-        MapView().edgesIgnoringSafeArea(.all)
+        MapViewOld().edgesIgnoringSafeArea(.all)
     }
 }
 

@@ -9,11 +9,11 @@
 import SwiftUI
 import MapKit
 
-struct MapView: UIViewRepresentable {
+struct MapViewOld: UIViewRepresentable {
     class Coordinator: NSObject, MKMapViewDelegate {
-        var parent: MapView
+        var parent: MapViewOld
         
-        init(_ parent: MapView) {
+        init(_ parent: MapViewOld) {
             self.parent = parent
         }
         
@@ -49,8 +49,8 @@ struct MapView: UIViewRepresentable {
     }
 }
 
-struct MapView_Previews: PreviewProvider {
+struct MapViewOld_Previews: PreviewProvider {
     static var previews: some View {
-        MapView()
+        MapViewOld()
     }
 }
