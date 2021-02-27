@@ -49,10 +49,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSFaceIDUsageDescription</key>
-	<string>We need to unlock your data.</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Please authenticate yourself to unlock your places.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

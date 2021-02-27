@@ -22,6 +22,7 @@
 		BD7743AB250DCDDB005E9F2B /* MapViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7743AA250DCDDB005E9F2B /* MapViewExample.swift */; };
 		BD7743AD250DD078005E9F2B /* LocalAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7743AC250DD078005E9F2B /* LocalAuthentication.swift */; };
 		BDA5B60F250DC960005E46AB /* MapViewOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5B60E250DC960005E46AB /* MapViewOld.swift */; };
+		BDB61CFE25EA28EA006EA21D /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB61CFD25EA28EA006EA21D /* MKPointAnnotation-Codable.swift */; };
 		BDE8844025CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8843F25CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift */; };
 		BDE8844325CE007D00E37F0D /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8844225CE007D00E37F0D /* EditView.swift */; };
 		BDE8844625CE022500E37F0D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8844525CE022500E37F0D /* Result.swift */; };
@@ -45,6 +46,7 @@
 		BD7743AA250DCDDB005E9F2B /* MapViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExample.swift; sourceTree = "<group>"; };
 		BD7743AC250DD078005E9F2B /* LocalAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthentication.swift; sourceTree = "<group>"; };
 		BDA5B60E250DC960005E46AB /* MapViewOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewOld.swift; sourceTree = "<group>"; };
+		BDB61CFD25EA28EA006EA21D /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 		BDE8843F25CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MkPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
 		BDE8844225CE007D00E37F0D /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		BDE8844525CE022500E37F0D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				BD53048524E777810048694E /* SceneDelegate.swift */,
 				BD53048A24E777810048694E /* ContentView.swift */,
 				BD2F829325491EF600255821 /* MapView.swift */,
+				BDB61CFD25EA28EA006EA21D /* MKPointAnnotation-Codable.swift */,
 				BDE8843F25CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift */,
 				BDE8844525CE022500E37F0D /* Result.swift */,
 				BDE8844225CE007D00E37F0D /* EditView.swift */,
@@ -204,6 +207,7 @@
 				BD7743AB250DCDDB005E9F2B /* MapViewExample.swift in Sources */,
 				BD53048B24E777810048694E /* ContentView.swift in Sources */,
 				BDA5B60F250DC960005E46AB /* MapViewOld.swift in Sources */,
+				BDB61CFE25EA28EA006EA21D /* MKPointAnnotation-Codable.swift in Sources */,
 				BD53048624E777810048694E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
