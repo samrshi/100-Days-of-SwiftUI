@@ -17,40 +17,13 @@ struct ContentView: View {
   @State private var showingPlaceDetails = false
   @State private var showingEditScreen = false
   @State private var isUnlocked = false
+  @State private var showingAuthenticationAlert = false
+  @State private var authenticationError = ""
   
   var body: some View {
     ZStack {
       if isUnlocked {
-        MapView(centerCoordinate: $centerCoordinate, selectedPlace: $selectedPlace, showingPlaceDetails: $showingPlaceDetails, annotations: locations)
-          .edgesIgnoringSafeArea(.all)
-        Circle()
-          .fill(Color.blue)
-          .opacity(0.3)
-          .frame(width: 32, height: 32)
-        
-        VStack {
-          Spacer()
-          HStack {
-            Spacer()
-            Button(action: {
-              let newLocation = CodableMKPointAnnotation()
-              newLocation.title = "Example Location"
-              newLocation.coordinate = centerCoordinate
-              locations.append(newLocation)
-              
-              self.selectedPlace = newLocation
-              self.showingEditScreen = true
-            }) {
-              Image(systemName: "plus")
-            }
-            .padding()
-            .background(Color.black)
-            .foregroundColor(.white)
-            .font(.title)
-            .clipShape(Circle())
-            .padding(.trailing)
-          }
-        }
+        MapScreen(centerCoordinate: $centerCoordinate, locations: $locations, selectedPlace: $selectedPlace, showingPlaceDetails: $showingPlaceDetails, showingEditScreen: $showingEditScreen)
       } else {
         Button("Unlock Places") {
           authenticate()
@@ -61,22 +34,15 @@ struct ContentView: View {
         .clipShape(RoundedRectangle(cornerRadius: 10))
       }
     }
-    .alert(isPresented: $showingPlaceDetails) {
-      Alert(
-        title: Text(selectedPlace?.title ?? "Unknown"),
-        message: Text(selectedPlace?.subtitle ?? "Missing place information."),
-        primaryButton: .default(Text("OK")),
-        secondaryButton: .default(Text("Edit")) {
-          self.showingEditScreen = true
-        }
-      )
-    }
     .sheet(isPresented: $showingEditScreen, onDismiss: saveData) {
       if let selectedPlace = selectedPlace {
         EditView(placemark: selectedPlace)
       }
     }
     .onAppear(perform: loadData)
+    .alert(isPresented: $showingAuthenticationAlert) {
+      Alert(title: Text("Authentication Error"), message: Text(authenticationError), dismissButton: .cancel())
+    }
   }
   
   func getDocumentsDirectory() -> URL {
@@ -117,12 +83,14 @@ struct ContentView: View {
           if success {
             self.isUnlocked = true
           } else {
-            // error
+            self.showingAuthenticationAlert = true
+            self.authenticationError = authenticationError?.localizedDescription ?? "Unknown error."
           }
         }
       }
     } else {
-      // no biometrics
+      self.authenticationError = "Biometrics authentication unavailable."
+      self.showingAuthenticationAlert = true
     }
   }
 }

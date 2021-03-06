@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD18A42625F36CF4001A93FF /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18A42525F36CF4001A93FF /* MapScreen.swift */; };
 		BD2F829425491EF600255821 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F829325491EF600255821 /* MapView.swift */; };
 		BD53048424E777810048694E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53048324E777810048694E /* AppDelegate.swift */; };
 		BD53048624E777810048694E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53048524E777810048694E /* SceneDelegate.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD18A42525F36CF4001A93FF /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		BD2F829325491EF600255821 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BD53048024E777810048694E /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD53048324E777810048694E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				BD53048324E777810048694E /* AppDelegate.swift */,
 				BD53048524E777810048694E /* SceneDelegate.swift */,
 				BD53048A24E777810048694E /* ContentView.swift */,
+				BD18A42525F36CF4001A93FF /* MapScreen.swift */,
 				BD2F829325491EF600255821 /* MapView.swift */,
 				BDB61CFD25EA28EA006EA21D /* MKPointAnnotation-Codable.swift */,
 				BDE8843F25CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift */,
@@ -205,6 +208,7 @@
 				BD53049E24E77D160048694E /* WritingDataChallenge.swift in Sources */,
 				BD5304A024E77F780048694E /* WritingData.swift in Sources */,
 				BD7743AB250DCDDB005E9F2B /* MapViewExample.swift in Sources */,
+				BD18A42625F36CF4001A93FF /* MapScreen.swift in Sources */,
 				BD53048B24E777810048694E /* ContentView.swift in Sources */,
 				BDA5B60F250DC960005E46AB /* MapViewOld.swift in Sources */,
 				BDB61CFE25EA28EA006EA21D /* MKPointAnnotation-Codable.swift in Sources */,

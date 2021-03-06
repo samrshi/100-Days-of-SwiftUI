@@ -11,7 +11,7 @@ import MapKit
 extension MKPointAnnotation: ObservableObject {
   public var wrappedTitle: String {
     get {
-      self.title ?? "Unknown value"
+      self.title ?? ""
     }
     
     set {
@@ -21,7 +21,7 @@ extension MKPointAnnotation: ObservableObject {
   
   public var wrappedSubtitle: String {
     get {
-      self.subtitle ?? "Unknown value"
+      self.subtitle ?? ""
     }
     
     set {
