@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDAA46B2247F82EA00305102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA46B1247F82EA00305102 /* AppDelegate.swift */; };
-		BDAA46B4247F82EA00305102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA46B3247F82EA00305102 /* SceneDelegate.swift */; };
-		BDAA46B6247F82EA00305102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA46B5247F82EA00305102 /* ContentView.swift */; };
-		BDAA46B8247F82EE00305102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA46B7247F82EE00305102 /* Assets.xcassets */; };
-		BDAA46BB247F82EE00305102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA46BA247F82EE00305102 /* Preview Assets.xcassets */; };
-		BDAA46BE247F82EE00305102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA46BC247F82EE00305102 /* LaunchScreen.storyboard */; };
+		BD86611B24860D0E00B8B677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86611A24860D0E00B8B677 /* AppDelegate.swift */; };
+		BD86611D24860D0E00B8B677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86611C24860D0E00B8B677 /* SceneDelegate.swift */; };
+		BD86611F24860D0F00B8B677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86611E24860D0F00B8B677 /* ContentView.swift */; };
+		BD86612124860D1100B8B677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD86612024860D1100B8B677 /* Assets.xcassets */; };
+		BD86612424860D1100B8B677 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD86612324860D1100B8B677 /* Preview Assets.xcassets */; };
+		BD86612724860D1100B8B677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD86612524860D1100B8B677 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BDAA46AE247F82EA00305102 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDAA46B1247F82EA00305102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDAA46B3247F82EA00305102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDAA46B5247F82EA00305102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BDAA46B7247F82EE00305102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BDAA46BA247F82EE00305102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BDAA46BD247F82EE00305102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BDAA46BF247F82EE00305102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD86611724860D0E00B8B677 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD86611A24860D0E00B8B677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD86611C24860D0E00B8B677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD86611E24860D0F00B8B677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD86612024860D1100B8B677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD86612324860D1100B8B677 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD86612624860D1100B8B677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD86612824860D1100B8B677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BDAA46AB247F82EA00305102 /* Frameworks */ = {
+		BD86611424860D0E00B8B677 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BDAA46A5247F82EA00305102 = {
+		BD86610E24860D0E00B8B677 = {
 			isa = PBXGroup;
 			children = (
-				BDAA46B0247F82EA00305102 /* WeSplit */,
-				BDAA46AF247F82EA00305102 /* Products */,
+				BD86611924860D0E00B8B677 /* GuessTheFlag */,
+				BD86611824860D0E00B8B677 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BDAA46AF247F82EA00305102 /* Products */ = {
+		BD86611824860D0E00B8B677 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDAA46AE247F82EA00305102 /* WeSplit.app */,
+				BD86611724860D0E00B8B677 /* GuessTheFlag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDAA46B0247F82EA00305102 /* WeSplit */ = {
+		BD86611924860D0E00B8B677 /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
-				BDAA46B1247F82EA00305102 /* AppDelegate.swift */,
-				BDAA46B3247F82EA00305102 /* SceneDelegate.swift */,
-				BDAA46B5247F82EA00305102 /* ContentView.swift */,
-				BDAA46B7247F82EE00305102 /* Assets.xcassets */,
-				BDAA46BC247F82EE00305102 /* LaunchScreen.storyboard */,
-				BDAA46BF247F82EE00305102 /* Info.plist */,
-				BDAA46B9247F82EE00305102 /* Preview Content */,
+				BD86611A24860D0E00B8B677 /* AppDelegate.swift */,
+				BD86611C24860D0E00B8B677 /* SceneDelegate.swift */,
+				BD86611E24860D0F00B8B677 /* ContentView.swift */,
+				BD86612024860D1100B8B677 /* Assets.xcassets */,
+				BD86612524860D1100B8B677 /* LaunchScreen.storyboard */,
+				BD86612824860D1100B8B677 /* Info.plist */,
+				BD86612224860D1100B8B677 /* Preview Content */,
 			);
-			path = WeSplit;
+			path = GuessTheFlag;
 			sourceTree = "<group>";
 		};
-		BDAA46B9247F82EE00305102 /* Preview Content */ = {
+		BD86612224860D1100B8B677 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BDAA46BA247F82EE00305102 /* Preview Assets.xcassets */,
+				BD86612324860D1100B8B677 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,39 +78,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDAA46AD247F82EA00305102 /* WeSplit */ = {
+		BD86611624860D0E00B8B677 /* GuessTheFlag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDAA46C2247F82EE00305102 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = BD86612B24860D1100B8B677 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
 			buildPhases = (
-				BDAA46AA247F82EA00305102 /* Sources */,
-				BDAA46AB247F82EA00305102 /* Frameworks */,
-				BDAA46AC247F82EA00305102 /* Resources */,
+				BD86611324860D0E00B8B677 /* Sources */,
+				BD86611424860D0E00B8B677 /* Frameworks */,
+				BD86611524860D0E00B8B677 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WeSplit;
-			productName = WeSplit;
-			productReference = BDAA46AE247F82EA00305102 /* WeSplit.app */;
+			name = GuessTheFlag;
+			productName = GuessTheFlag;
+			productReference = BD86611724860D0E00B8B677 /* GuessTheFlag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BDAA46A6247F82EA00305102 /* Project object */ = {
+		BD86610F24860D0E00B8B677 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = samrshi;
 				TargetAttributes = {
-					BDAA46AD247F82EA00305102 = {
+					BD86611624860D0E00B8B677 = {
 						CreatedOnToolsVersion = 11.2;
 					};
 				};
 			};
-			buildConfigurationList = BDAA46A9247F82EA00305102 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = BD86611224860D0E00B8B677 /* Build configuration list for PBXProject "GuessTheFlag" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +118,47 @@
 				en,
 				Base,
 			);
-			mainGroup = BDAA46A5247F82EA00305102;
-			productRefGroup = BDAA46AF247F82EA00305102 /* Products */;
+			mainGroup = BD86610E24860D0E00B8B677;
+			productRefGroup = BD86611824860D0E00B8B677 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDAA46AD247F82EA00305102 /* WeSplit */,
+				BD86611624860D0E00B8B677 /* GuessTheFlag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BDAA46AC247F82EA00305102 /* Resources */ = {
+		BD86611524860D0E00B8B677 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDAA46BE247F82EE00305102 /* LaunchScreen.storyboard in Resources */,
-				BDAA46BB247F82EE00305102 /* Preview Assets.xcassets in Resources */,
-				BDAA46B8247F82EE00305102 /* Assets.xcassets in Resources */,
+				BD86612724860D1100B8B677 /* LaunchScreen.storyboard in Resources */,
+				BD86612424860D1100B8B677 /* Preview Assets.xcassets in Resources */,
+				BD86612124860D1100B8B677 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BDAA46AA247F82EA00305102 /* Sources */ = {
+		BD86611324860D0E00B8B677 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDAA46B2247F82EA00305102 /* AppDelegate.swift in Sources */,
-				BDAA46B4247F82EA00305102 /* SceneDelegate.swift in Sources */,
-				BDAA46B6247F82EA00305102 /* ContentView.swift in Sources */,
+				BD86611B24860D0E00B8B677 /* AppDelegate.swift in Sources */,
+				BD86611D24860D0E00B8B677 /* SceneDelegate.swift in Sources */,
+				BD86611F24860D0F00B8B677 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BDAA46BC247F82EE00305102 /* LaunchScreen.storyboard */ = {
+		BD86612524860D1100B8B677 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BDAA46BD247F82EE00305102 /* Base */,
+				BD86612624860D1100B8B677 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BDAA46C0247F82EE00305102 /* Debug */ = {
+		BD86612924860D1100B8B677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		BDAA46C1247F82EE00305102 /* Release */ = {
+		BD86612A24860D1100B8B677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,40 +280,40 @@
 			};
 			name = Release;
 		};
-		BDAA46C3247F82EE00305102 /* Debug */ = {
+		BD86612C24860D1100B8B677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
-				DEVELOPMENT_TEAM = Q9PPH2T3L2;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A9373K73V;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_FILE = GuessTheFlag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.samrshi.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samrshi.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BDAA46C4247F82EE00305102 /* Release */ = {
+		BD86612D24860D1100B8B677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
-				DEVELOPMENT_TEAM = Q9PPH2T3L2;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A9373K73V;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_FILE = GuessTheFlag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.samrshi.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samrshi.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDAA46A9247F82EA00305102 /* Build configuration list for PBXProject "WeSplit" */ = {
+		BD86611224860D0E00B8B677 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDAA46C0247F82EE00305102 /* Debug */,
-				BDAA46C1247F82EE00305102 /* Release */,
+				BD86612924860D1100B8B677 /* Debug */,
+				BD86612A24860D1100B8B677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDAA46C2247F82EE00305102 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		BD86612B24860D1100B8B677 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDAA46C3247F82EE00305102 /* Debug */,
-				BDAA46C4247F82EE00305102 /* Release */,
+				BD86612C24860D1100B8B677 /* Debug */,
+				BD86612D24860D1100B8B677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BDAA46A6247F82EA00305102 /* Project object */;
+	rootObject = BD86610F24860D0E00B8B677 /* Project object */;
 }
