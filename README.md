@@ -9,7 +9,7 @@ https://www.hackingwithswift.com/100/swiftui/
 |--|--|
 |[Project 1](01%20-%20WeSplit) - WeSplit|![Image](01%20-%20WeSplit/Screenshots/WeSplit_1.png)  ![Image](01%20-%20WeSplit/Screenshots/WeSplit_2.png)|
 |[Challenge Day 1](02%20-%20VolumeConvert) - Volume Convert|![Imgur](02%20-%20VolumeConvert/Screenshots/Volume_1.png)  ![Imgur](02%20-%20VolumeConvert/Screenshots/Volume_2.png)|
-|[Project 2](03%20-%20GuessTheFlag) - Guess the Flag|![Imgur](03%20-%20GuessTheFlag/Screenshots/Flag1.png)  ![Imgur](03%20-%20GuessTheFlag/Screenshots/Flag2.png)|
+|[Project 2](03%20-%20GuessTheFlag) - Guess the Flag|![Imgur](03%20-%20GuessTheFlag/Screenshots/Flag_1.png)  ![Imgur](03%20-%20GuessTheFlag/Screenshots/Flag_2.png)|
 
 |[Project 3](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/04%20-%20ViewsAndModifiers) - Views and Modifiers|![Imgur](https://i.imgur.com/zr6RrL5m.png)  ![Imgur](https://i.imgur.com/efTEXeGm.png)|
 
