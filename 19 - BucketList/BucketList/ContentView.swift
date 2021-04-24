@@ -34,11 +34,16 @@ struct ContentView: View {
         .clipShape(RoundedRectangle(cornerRadius: 10))
       }
     }
-    .sheet(isPresented: $showingEditScreen, onDismiss: saveData) {
-      if let selectedPlace = selectedPlace {
+    .sheet(item: $selectedPlace) { place in
+      if let selectedPlace = place {
         EditView(placemark: selectedPlace)
       }
     }
+//    .sheet(isPresented: $showingEditScreen, onDismiss: saveData) {
+//      if let selectedPlace = selectedPlace {
+//        EditView(placemark: selectedPlace)
+//      }
+//    }
     .onAppear(perform: loadData)
     .alert(isPresented: $showingAuthenticationAlert) {
       Alert(title: Text("Authentication Error"), message: Text(authenticationError), dismissButton: .cancel())

@@ -27,6 +27,7 @@
 		BDE8844025CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8843F25CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift */; };
 		BDE8844325CE007D00E37F0D /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8844225CE007D00E37F0D /* EditView.swift */; };
 		BDE8844625CE022500E37F0D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8844525CE022500E37F0D /* Result.swift */; };
+		BDEE01782634CEFE002D08EF /* MKPointAnnotation+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE01772634CEFE002D08EF /* MKPointAnnotation+Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		BDE8843F25CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MkPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
 		BDE8844225CE007D00E37F0D /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		BDE8844525CE022500E37F0D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BDEE01772634CEFE002D08EF /* MKPointAnnotation+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation+Identifiable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				BD2F829325491EF600255821 /* MapView.swift */,
 				BDB61CFD25EA28EA006EA21D /* MKPointAnnotation-Codable.swift */,
 				BDE8843F25CE001B00E37F0D /* MkPointAnnotation-ObservableObject.swift */,
+				BDEE01772634CEFE002D08EF /* MKPointAnnotation+Identifiable.swift */,
 				BDE8844525CE022500E37F0D /* Result.swift */,
 				BDE8844225CE007D00E37F0D /* EditView.swift */,
 				BD53049A24E779780048694E /* Introduction */,
@@ -213,6 +216,7 @@
 				BDA5B60F250DC960005E46AB /* MapViewOld.swift in Sources */,
 				BDB61CFE25EA28EA006EA21D /* MKPointAnnotation-Codable.swift in Sources */,
 				BD53048624E777810048694E /* SceneDelegate.swift in Sources */,
+				BDEE01782634CEFE002D08EF /* MKPointAnnotation+Identifiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
