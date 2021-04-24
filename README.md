@@ -7,7 +7,7 @@ https://www.hackingwithswift.com/100/swiftui/
 
 |Name|Screenshots|
 |--|--|
-|[Project 1](01%20-%20WeSplit) - WeSplit|![Image](01%20-%20WeSplit/Screenshots/WeSplit1.png)  ![Image](01%20-%20WeSplit/Screenshots/WeSplit2.png)|
+|[Project 1](01%20-%20WeSplit) - WeSplit|![Image](01%20-%20WeSplit/Screenshots/WeSplit_1.png)  ![Image](01%20-%20WeSplit/Screenshots/WeSplit_2.png)|
 
 |[Challenge Day 1](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/02%20-%20Challenge%20Day%201%20VolumeConvert) - Volume Convert|![Imgur](https://i.imgur.com/Ue8NRDMm.png)|
 
