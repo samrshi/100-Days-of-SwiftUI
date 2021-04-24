@@ -23,7 +23,6 @@ https://www.hackingwithswift.com/100/swiftui/
 |[Project 10](14%20-%20Cupcake%20Corner) - Cupcake Corner|![Imgur](14%20-%20Cupcake%20Corner/Screenshots/Cupcake1.png)  ![Imgur](14%20-%20Cupcake%20Corner/Screenshots/Cupcake1.png)  ![Imgur](14%20-%20Cupcake%20Corner/Screenshots/Cupcake1.png)|
 |[Project 11](15%20-%20Bookworm) - Bookworm|![Imgur](15%20-%20Bookworm/Screenshots/Bookworm1.png)  ![Imgur](15%20-%20Bookworm/Screenshots/Bookworm2.png)  ![Imgur](15%20-%20Bookworm/Screenshots/Bookworm3.png)|
 |[Project 12](16%20-%20CoreDataProject) - Core Data Project|![Imgur](16%20-%20CoreDataProject/Screenshots/CoreData.png)|
-
-|[Milestone 10-12](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/17%20-%20Milestone%2010-12%20UsersList) - Users List|![Imgur](https://i.imgur.com/BR12Muxm.png)  ![Imgur](https://i.imgur.com/ckfMmX5m.png)|
+|[Milestone 10-12](17%20-%20UsersList) - Users List|![Imgur](17%20-%20UsersList/Screenshots/Users1.png)  ![Imgur](17%20-%20UsersList/Screenshots/Users2.png)|
 
 |[Project 13](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/18%20-%20Instafilter) - Instafilter|![Imgur](https://i.imgur.com/woJY3Smm.png)  ![Imgur](https://i.imgur.com/MoNMYjsm.png)|
