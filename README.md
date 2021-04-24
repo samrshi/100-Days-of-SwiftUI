@@ -14,8 +14,7 @@ https://www.hackingwithswift.com/100/swiftui/
 |[Milestone 1-3](05%20-%20RockPaperScissors) - Rock, Paper, Scissors|![Imgur](05%20-%20RockPaperScissors/Screenshots/rps1.png)  ![Imgur](05%20-%20RockPaperScissors/Screenshots/rps2.png)|
 |[Project 4](06%20-%20BetterRest) - BetterRest|![Imgur](06%20-%20BetterRest/Screenshots/BetterRest.png)|
 |[Project 5](07%20-%20WordScramble) - WordScramble|![Imgur](07%20-%20WordScramble/Screenshots/Word1.png)  ![Imgur](07%20-%20WordScramble/Screenshots/Word2.png)|
-|[Project 6](08%20-%20Animations) - Animations|![Imgur](08%20-%20Animations/Screenshots/Animations
-1.png)  ![Imgur](08%20-%20Animations/Screenshots/Animations2.png)|
+|[Project 6](08%20-%20Animations) - Animations|![Imgur](08%20-%20Animations/Screenshots/Animations1.png)  ![Imgur](08%20-%20Animations/Screenshots/Animations2.png)|
 
 |[Milestone 4-6](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/09%20-%20Milestone%204-6%20MultiplicationTables) - Multiplication Tables|![Imgur](https://i.imgur.com/BzReN6Xm.png)  ![Imgur](https://i.imgur.com/azshsvgm.png)|
 
