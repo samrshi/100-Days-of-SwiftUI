@@ -11,7 +11,7 @@ https://www.hackingwithswift.com/100/swiftui/
 |[Challenge Day 1](02%20-%20VolumeConvert) - Volume Convert|![Imgur](02%20-%20VolumeConvert/Screenshots/Volume_1.png)  ![Imgur](02%20-%20VolumeConvert/Screenshots/Volume_2.png)|
 |[Project 2](03%20-%20GuessTheFlag) - Guess the Flag|![Imgur](03%20-%20GuessTheFlag/Screenshots/Flag-1.png)  ![Imgur](03%20-%20GuessTheFlag/Screenshots/Flag-2.png)|
 |[Project 3](04%20-%20ViewsAndModifiers) - Views and Modifiers|![Imgur](04%20-%20ViewsAndModifiers/Screenshots/Views1.png)  ![Imgur](04%20-%20ViewsAndModifiers/Screenshots/Views1.png)|
-|[Milestone 1-3](05%20-3%20RockPaperScissors) - Rock, Paper, Scissors|![Imgur](05%20-3%20RockPaperScissors/Screenshots/rps1.png)  ![Imgur](05%20-%20RockPaperScissors/Screenshots/rps2.png)|
+|[Milestone 1-3](05%20-%20RockPaperScissors) - Rock, Paper, Scissors|![Imgur](05%20-%20RockPaperScissors/Screenshots/rps1.png)  ![Imgur](05%20-%20RockPaperScissors/Screenshots/rps2.png)|
 
 |[Project 4](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/06%20-%20BetterRest) - BetterRest|![Imgur](https://i.imgur.com/0hDw3cnm.png)|
 
