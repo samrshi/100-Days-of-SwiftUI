@@ -16,8 +16,7 @@ https://www.hackingwithswift.com/100/swiftui/
 |[Project 5](07%20-%20WordScramble) - WordScramble|![Imgur](07%20-%20WordScramble/Screenshots/Word1.png)  ![Imgur](07%20-%20WordScramble/Screenshots/Word2.png)|
 |[Project 6](08%20-%20Animations) - Animations|![Imgur](08%20-%20Animations/Screenshots/Animations1.png)  ![Imgur](08%20-%20Animations/Screenshots/Animations2.png)|
 |[Milestone 4-6](09%20-%20MultiplicationTables) - Multiplication Tables|![Imgur](09%20-%20MultiplicationTables/Screenshots/Mult1.png)  ![Imgur](09%20-%20MultiplicationTables/Screenshots/Mult2.png)|
-
-|[Project 7](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/10%20-%20iExpense) - iExpense|![Imgur](https://i.imgur.com/lIMboZgm.png)  ![Imgur](https://i.imgur.com/CEr8XB3m.png)|
+|[Project 7](10%20-%20iExpense) - iExpense|![Imgur](10%20-%20iExpense/Screenshots/iExpense2.png)  ![Imgur](10%20-%20iExpense/Screenshots/iExpense2.png)|
 
 |[Project 8](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/11%20-%20Moonshot) - Moonshot|![Imgur](https://i.imgur.com/XqYM08Em.png)  ![Imgur](https://i.imgur.com/UFmyPD7m.png)  ![Imgur](https://i.imgur.com/l9EtXQWm.png)|
 
