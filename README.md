@@ -22,8 +22,7 @@ https://www.hackingwithswift.com/100/swiftui/
 |[Milestone 7-9](13%20-%20Habit%20Tracker) - Habit Tracker|![Imgur](13%20-%20Habit%20Tracker/Screenshots/Habit1.png) ![Imgur](13%20-%20Habit%20Tracker/Screenshots/Habit2.png)</br>![Imgur](13%20-%20Habit%20Tracker/Screenshots/Habit3.png)  ![Imgur](13%20-%20Habit%20Tracker/Screenshots/Habit4.png)|
 |[Project 10](14%20-%20Cupcake%20Corner) - Cupcake Corner|![Imgur](14%20-%20Cupcake%20Corner/Screenshots/Cupcake1.png)  ![Imgur](14%20-%20Cupcake%20Corner/Screenshots/Cupcake1.png)  ![Imgur](14%20-%20Cupcake%20Corner/Screenshots/Cupcake1.png)|
 |[Project 11](15%20-%20Bookworm) - Bookworm|![Imgur](15%20-%20Bookworm/Screenshots/Bookworm1.png)  ![Imgur](15%20-%20Bookworm/Screenshots/Bookworm2.png)  ![Imgur](15%20-%20Bookworm/Screenshots/Bookworm3.png)|
-
-|[Project 12](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/16%20-%20CoreDataProject) - Core Data Project|![Imgur](https://i.imgur.com/TRQb8ztm.png)|
+|[Project 12](16%20-%20CoreDataProject) - Core Data Project|![Imgur](16%20-%20CoreDataProject/Screenshots/CoreData.png)|
 
 |[Milestone 10-12](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/17%20-%20Milestone%2010-12%20UsersList) - Users List|![Imgur](https://i.imgur.com/BR12Muxm.png)  ![Imgur](https://i.imgur.com/ckfMmX5m.png)|
 
