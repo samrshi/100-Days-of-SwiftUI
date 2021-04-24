@@ -19,8 +19,7 @@ https://www.hackingwithswift.com/100/swiftui/
 |[Project 7](10%20-%20iExpense) - iExpense|![Imgur](10%20-%20iExpense/Screenshots/iExpense1.png)  ![Imgur](10%20-%20iExpense/Screenshots/iExpense2.png)|
 |[Project 8](11%20-%20Moonshot) - Moonshot|![Imgur](11%20-%20Moonshot/Screenshots/Moonshot1.png)  ![Imgur](11%20-%20Moonshot/Screenshots/Moonshot2.png)  ![Imgur](11%20-%20Moonshot/Screenshots/Moonshot3.png)|
 |[Project 9](12%20-%20Drawing) - Drawing|![Imgur](12%20-%20Drawing/Screenshots/Drawing1.png)  ![Imgur](12%20-%20Drawing/Screenshots/Drawing2.png)  ![Imgur](12%20-%20Drawing/Screenshots/Drawing3.png)|
-
-|[Milestone 7-9](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/13%20-%20Milestone%207-9%20Habit%20Tracker) - Habit Tracker|![Imgur](https://i.imgur.com/gCi0UHZm.png) ![Imgur](https://i.imgur.com/2i3bJ65m.png)  ![Imgur](https://i.imgur.com/WGsQ5HCm.png)  ![Imgur](https://i.imgur.com/VExJey6m.png)|
+|[Milestone 7-9](13%20-%20Habit%20Tracker) - Habit Tracker|![Imgur](13%20-%20Habit%20Tracker/Screenshots/Habit1.png) ![Imgur](13%20-%20Habit%20Tracker/Screenshots/Habit2.png)</br>![Imgur](13%20-%20Habit%20Tracker/Screenshots/Habit3.png)  ![Imgur](13%20-%20Habit%20Tracker/Screenshots/Habit4.png)|
 
 |[Project 10](https://github.com/samrshi/100-Days-of-SwiftUI/tree/master/14%20-%20Cupcake%20Corner/Cupcake%20Corner) - Cupcake Corner|![Imgur](https://i.imgur.com/E00SDy7m.png)  ![Imgur](https://i.imgur.com/9j9FIsom.png)  ![Imgur](https://i.imgur.com/kdDBd4Ym.png)|
 
